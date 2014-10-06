@@ -1,7 +1,8 @@
 # dumpfilter
 
-C-Program to find occurences of search terms in HD-dumps, eg. Useful
-if you shreddered your recent work and need it back.
+C-Program to find occurences of search terms in dump files that are
+cluttered with your and other eventually binary data. Useful if you
+shreddered your recent work and need it back.
 
     Usage: dumpfilter [options] dumpfile search-terms
     Options:
