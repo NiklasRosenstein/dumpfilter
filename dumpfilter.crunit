@@ -17,4 +17,4 @@ def objects():
 @target
 def program():
   program.dependencies.append(objects)
-  program.add('$objects', '$program', '$c:cc $(quotelist $<) $(c:binout $@)')
+  program.add('$objects', '$program', '$c:cc $(quotesplit $<) $(c:binout $@)')
