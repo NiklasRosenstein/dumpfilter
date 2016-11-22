@@ -1,0 +1,14 @@
+# app.nr.dumpfilter
+
+load_module('lang.cxx.*')
+load_module('lib.cxx.getopt.*')
+
+main_bin = cxx_binary(
+  inputs = c_compile(
+    sources = glob(['src/*.c']),
+    frameworks = [getopt]
+  ),
+  output = 'dumpfilter'
+)
+
+main = gentarget([[main_bin]], explicit=True)

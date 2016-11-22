@@ -1,0 +1,12 @@
+{
+  "name": "app.nr.dumpfilter",
+  "version": "1.0.0",
+  "author": "",
+  "url": "",
+  "dependencies": {
+    "lang.cxx": "*",
+    "lib.cxx.getopt": "*"
+  },
+  "options": {},
+  "loaders": []
+}
